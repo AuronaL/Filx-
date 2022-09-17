@@ -27,3 +27,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+1. Assitant missing -> reopened the XCode
+2. Pictures can not find -> App Transport Security -> adding some key in info.plist.
+(https://stackoverflow.com/questions/32427300/app-transport-security-xcode-7-beta-6/32609970#32609970)
