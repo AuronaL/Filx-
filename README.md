@@ -2,8 +2,25 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+📝 `NOTE - PASTE PART 2 SNIPPET HERE:`
+# User Stories
 
+#### REQUIRED (10pts)
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+
+### App Walkthrough GIF
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/97556484/192073925-c8c6e1be-8e03-4725-8306-f64bb345377d.gif)
+
+
+### Notes
+1. type match: in the detail screen we should change it to [String: Any]! not [[String: Any]]!
+2. layout: the image view choose "Aspect Fill" then it will fill the cell other wise it will fit with other cell and cutoff automatically.
 ---
 '@codepathreview'
 
@@ -23,7 +40,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/97556484/190870000-75498e0e-62bd-49ba-950d-e41f9b18c07b.gif)
-
 
 
 ### Notes
